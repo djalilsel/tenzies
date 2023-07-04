@@ -26,7 +26,6 @@ function App() {
       })
       if(holdCounter === 10 && winningNumber === dice[0].value){
         setTenzies(true)  
-        console.log("yay you won")
       }
     }
   ,[dice])
